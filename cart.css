@@ -1,0 +1,41 @@
+ body{ 
+    background-size: cover;
+    background:  rgb(255,136,0);
+    background: linear-gradient(90deg, rgba(255,136,0,0.7736149635635504)
+     3%, rgba(32,121,9,0.5075085209865196) 81%);;
+}
+
+.products{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.container{
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   min-height: 40px;
+}
+
+.card{
+    height: 450px;
+    width: 335px;
+    padding: 20px 35px;
+    background: orange;
+    border-radius: 25px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+color: white;
+}
+.card i{
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    max-resolution: 25px 0;
+    color: black;
+} 

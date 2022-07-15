@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <!-- fontawsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- cart2 css link -->
+    <link rel="stylesheet" href="./cart2.css" />
+  </head>
+  <body>
+    <div class="products">
+        <h2>Our Cart products</h2>
+      </div>
+      
+
+    <!-- cart section -->
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="table-responsive">
+          <table class="table">
+            <thead class="thead">
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="main">
+                    <div class="d-flex">
+                      <!--w=145 h=986-->
+                      <img src="./images/beans.jpg" alt="" />
+                    </div>
+                    <div class="des">
+                      <p>just text</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h6>500000/=</h6>
+                </td>
+                <td>
+                  <div class="counter">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <input
+                      class="input-text"
+                      type="text"
+                      value="1"
+                      min="0"
+                      max="100"
+                    />
+                    <i class="fa-solid fa-angle-up"></i>
+                  </div>
+                </td>
+                <td>
+                  <h6>500000/=</h6>
+                </td>
+              </tr>
+              <!--  -->
+              <tr>
+                <td>
+                  <div class="main">
+                    <div class="d-flex">
+                      <!--w=145 h=986-->
+                      <img src="./images/beans.jpg" alt="" />
+                    </div>
+                    <div class="des">
+                      <p>just text</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h6>500000/=</h6>
+                </td>
+                <td>
+                  <div class="counter">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <input
+                      class="input-text"
+                      type="text"
+                      value="1"
+                      min="0"
+                      max="100"
+                    />
+                    <i class="fa-solid fa-angle-up"></i>
+                  </div>
+                </td>
+                <td>
+                  <h6>500000/=</h6>
+                </td>
+              </tr>
+              <!--  -->
+              <tr>
+                <td>
+                  <div class="main">
+                    <div class="d-flex">
+                      <!--w=145 h=986-->
+                      <img src="./images/beans.jpg" alt="" />
+                    </div>
+                    <div class="des">
+                      <p>just text</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h6>500000/=</h6>
+                </td>
+                <td>
+                  <div class="counter">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <input
+                      class="input-text"
+                      type="text"
+                      value="1"
+                      min="0"
+                      max="100"
+                    />
+                    <i class="fa-solid fa-angle-up"></i>
+                  </div>
+                </td>
+                <td>
+                  <h6>500000/=</h6>
+                </td>
+              </tr>
+              <!--  -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <div class="col-lg-4 offset-lg-4">
+      <div class="checkout">
+        <ul>
+          <li class="subtotal">
+            subtotal
+            <span>500000/=</span>
+          </li>
+          <li class="cart-total">
+            Total
+            <span>500000/=</span>
+          </li>
+        </ul>
+        <a href="#" class="proceed-btn">proceed to checkout</a>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>

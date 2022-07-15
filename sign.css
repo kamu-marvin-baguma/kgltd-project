@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: o;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255,136,0);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .modalform{
+    width: 400px;
+    min-height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .actionBtns{
+    width: 80%;
+    background-color: rgb(233, 100, 55);
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+ }
+.actionBtn{
+    padding: 1em;
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ .moveBtn{
+position: absolute;
+width: 50%;
+height: 90%;
+margin: 2px;
+border: none;
+outline: none;
+border-radius: 50px;
+background-color: white;
+font-size: 0.8em;
+font-weight: 600;
+box-shadow: rgb(0, 0, 0, 0.1) 0px 4px 12px;
+transform: translateX(0);
+transition: all 0.2s ease-in-out;
+ }
+
+ .rightBtn{
+    transform: translateX(98%);
+    transition: all 0.2s ease-in-out;
+ }
+  .inputgroup{
+    width: 300px;
+    margin: 0.8em 0;
+    background-color: rgb(245, 245, 245);
+    box-shadow: rgb(0, 0, 0, 0.12) 0px 1px 3px; rgb(0, 0, 0, 0.24) 0px 1px 2px;
+    font-weight: 500;
+  }
+
+  .inputgroup input{
+    width: 100%;
+    margin: 1em 1.5em;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .inputgroupb input:focus{
+outline: none;
+  }
+  .submitBtn{
+    width: 150px;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0, 0.12) 0px 1px 3px, rgb(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+  .submitBtn:hover{
+    background-color:  rgb(233, 100, 55);
+    color: #fff;
+  }
+  .form{
+    display: none;
+  }
+  .signupform{
+    display: block;
+  }
+.loginform{
+    display: block;
+}
