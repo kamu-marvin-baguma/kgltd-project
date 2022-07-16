@@ -1,0 +1,111 @@
+html{
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    padding: 20px;
+    height: 82%;
+}
+h4{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+h5{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+     
+}
+.text0{
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    margin-left: 2em;
+    text-align: center;
+}
+.text1{
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    margin-left: 2em;
+}
+.text2{
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    margin-top: 1.8em;
+
+}
+.text3{
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+.text4{
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    margin-left: 2em;
+    margin-top: 1.8em;
+    text-align: center;
+    margin-top: 0.8em;
+}
+.text5{
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    margin-top: 3em;
+    text-align: end;
+    margin-top: 1.5em;
+    margin-right: 4.5em;
+}
+.text7{
+    color: white;
+    font-weight: 600;
+    line-height: 1px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+
+
+
+body{
+    background: orange;
+}
+.tb1-container{
+    /* max-width: fit-content;
+    max-height: fit-content; */
+}
+.tb1-fixed{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    /* height: fit-content; */
+    max-height: 70vh;
+    margin-top: 40px;
+}
+table{
+    max-width: max-content;
+    border-collapse: separate;
+
+}
+table th{
+    position: sticky;
+    top: 0px;
+    background: blue;
+    text-align: center;
+    color: black;
+    border: 1px solid #ccc;
+    font-size: 16px;
+} 
+table td{
+    background: white;
+    text-align: center;
+    border: 1px solid #ccc;
+}
