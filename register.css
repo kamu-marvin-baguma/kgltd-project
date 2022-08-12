@@ -1,6 +1,27 @@
 .intro {
     height: 100%;
   }
+
+  .intro h3{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  .btn{
+    color: white;
+    border-radius: 25px;
+    background: black;
+    border-color: red;
+    opacity: 2s;
+    margin-left: 50px;
+}
+
+.btn:hover{
+  color: white;
+  background-color: rgb(178, 53, 8);
+}
   
   .gradient-custom {
     /* fallback for old browsers */
@@ -11,4 +32,22 @@
   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to bottom right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1))
+  }
+
+  form{
+    margin-top: 2rem;
+    font-size: 20px;
+    
+  }
+  .form-outline input{
+    border-radius: 5rem;
+    display: flex;
+    border-color: black;
+    padding: 0 rem;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+
   }

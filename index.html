@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <title>K.G LTD PAGE</title>
 
-   /> 
     <!-- fontawsome cdn link -->
     <link
       rel="stylesheet"
@@ -23,45 +22,54 @@
     />
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/custom.css" />
   </head>
 
   <body>
-    <header class="header">
+    <!-- navbar -->
+    <nav class="navigation-bar">
       <a href="#" class="logo"
-        ><i class="fa-solid fa-basket-shopping"></i>K.G LTD</a
-      >
-<!-- start of navbar -->
-      <nav class="navbar">
-        <a href="#">Home</a>
-        
-      </nav>
-      <!-- end of navbar -->
+        ><i class="fa-solid fa-basket-shopping"></i>K.Groco ltd</a>
+        <ul>
+          <div class="links">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Produce</a>
+            </li>
+          </div>
+        </ul>
+      <button class="actionBtn"> 
+        <a class="login" href="./login.html">Login</a>
+      </button>
 
-      <div class="icons">
-        <button type="button" class="btn btn-info">Login/signup</button>
-       
-      </div>
-      
-
-    </header>
-
+      <button class="actionBtn">
+        <a class="login" href="">Signup</a>
+      </button>
+    </nav>
 
     <!-- start of header -->
     <header class="page-header gradient">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-5">
-            <h2>Enjoy Fresh And Organic Products For You</h2>
+            <h2>Enjoy Fresh And  Organic Products For You</h2>
             <p>
               we the best selling and leading Grocceries for both retail and
               wholesale and aslo do deliveries.
             </p>
-            <button type="button" class="btn btn-warning btn-lg">
-              Order Now
+            <button type="button" class="btn1 btn-warning btn-lg">
+          <a class="get" href="./login.html">  Get started</a>
             </button>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 image">
             <img src="./images/runner-beans.jpg" alt="" />
           </div>
         </div>
@@ -75,26 +83,46 @@
       </svg>
     </header>
 
-    <!-- section starts -->
-    <section class="icons">
-      <div class="container text-center">
-        <div class="row g-5">
-          <div class="col-md-2">
-            <i class="fa-brands fa-facebook"></i>
+    
+
+    <!-----------start of footer------------>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h2>Download our App</h2>
+            <p>Download App for Android and ios mobile phone</p>
           </div>
-          <div class="col-md-2">
-            <i class="fa-brands fa-whatsapp"></i>
+          <div class="footer-col-2">
+            <h2>KARIBU GROCERIES</h2>
+            <p>our purpose is to provide quality and benefits of our clients</p>
           </div>
-          <div class="col-md-2"><i class="fa-brands fa-twitter"></i></div>
-          <div class="col-md-2">
-            <i class="fa-brands fa-instagram"></i>
+          <div class="footer-col-3">
+            <h2>Useful links</h2>
+            <ul>
+              <li>Blog post</li>
+              <li>Return policy</li>
+              <li>Join Affailiate</li>
+              <li>Coupons</li>
+            </ul>
           </div>
-          <div class="col-md-2"><i class="fa-brands fa-tiktok"></i></div>
-          <div class="col-md-2"><i class="fa-brands fa-amazon"></i></div>
+          <div class="footer-col-3">
+            <h2>Follow us</h2>
+            <ul>
+              <li>Facebook</li>
+              <li>Youtube</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
         </div>
+        <hr />
+        <p class="copyright">copyright 2022 KARIBU GROCERIES</p>
       </div>
-    </section>
+    </div>
+
+    <!-------end of footer-------->
     <!-- custom js file link -->
-    <script src="./js/bootstrap.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

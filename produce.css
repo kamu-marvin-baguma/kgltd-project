@@ -1,0 +1,60 @@
+.produce{  
+ background: orange;
+}
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color:white; /* change to desired color */
+    position: fixed;
+    margin-top: 0;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bolder; 
+    color: black;
+ }
+ .logo i{
+     color: green;
+ }
+
+.heading{
+     font-size: 40px;
+     color: white;
+     text-align: center;
+     font-weight: 400;
+     margin-top: 5px;
+}
+
+.heading span{
+    color: black;
+}
+
+.box-container{
+    display: block;
+    height: 100%;
+    width: 80%;
+    margin-top: 5px;
+}
+.box{
+width: 300px;
+height: 300px;
+background: #fff;
+display: inline-block;
+text-align: center;
+/* padding: 20px; */
+border: 0px 0px;
+justify-content: space-around;
+margin-right: 30px;
+}
+
+.image{
+    height: 150px;
+    width: 180px;
+    margin-top: 10px;
+}
+h3{
+    color: rgba(198, 32, 32, 0.639);
+    font-size: 20px;
+    /* padding: 2px; */
+}
